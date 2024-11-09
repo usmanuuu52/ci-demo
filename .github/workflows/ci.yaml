@@ -35,7 +35,7 @@ jobs:
           flake8 app.py
 
   unittest:
-
+    needs: linting
     runs-on: ubuntu-latest
 
     steps:
