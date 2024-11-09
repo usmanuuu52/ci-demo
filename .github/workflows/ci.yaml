@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.so }}
 
     strategy:
-      matrcix:
+      matrix:
         os: [ubuntu-latest, windows-lates, macos-latest]
 
     steps:
